@@ -1,0 +1,4 @@
+neighbourhood_cleansed,room_type,accommodates,bedrooms,bathrooms_text,minimum_nights,number_of_reviews,availability_365,review_scores_rating,latitude,longitude,pred_price,low_q10,high_q90
+Kolonaki,Entire home/apt,4,2,1.5 baths,2,85,210,4.8,37.979,23.743,127.0,117.0,119.0
+Koukaki,Private room,2,1,1 bath,1,40,280,4.6,37.964,23.728,53.0,61.0,109.0
+Plaka,Entire home/apt,5,2,2 baths,3,120,150,4.9,37.974,23.733,173.0,108.0,176.0
