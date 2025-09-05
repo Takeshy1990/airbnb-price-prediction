@@ -1,0 +1,6 @@
+id,neighbourhood_cleansed,room_type,accommodates,bedrooms,bathrooms_text,minimum_nights,number_of_reviews,availability_365,review_scores_rating,latitude,longitude,price
+1,Plaka,Entire home/apt,3,1,"1 bath",2,84,220,4.82,37.9752,23.7339,$118.00
+2,Koukaki,Private room,2,1,"1 bath",1,64,310,4.55,37.9621,23.7235,$52.00
+3,Kolonaki,Entire home/apt,4,2,"1.5 baths",2,91,180,4.90,37.9803,23.7411,$156.00
+4,Gazi,Entire home/apt,2,1,"1 bath",1,33,290,4.48,37.9787,23.7102,$78.00
+5,Syntagma,Entire home/apt,3,1,"1 bath",2,110,165,4.88,37.9755,23.7352,$145.00
