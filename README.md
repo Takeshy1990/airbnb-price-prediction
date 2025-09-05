@@ -60,6 +60,21 @@ python make_report.py
 Το pipeline είναι end-to-end: ξεκινά από τα δεδομένα, προχωρά σε εκπαίδευση, κάνει batch predictions και παράγει αυτόματα PDF report.  
 Η λύση είναι πλήρως επαναχρησιμοποιήσιμη και μπορεί να επεκταθεί σε άλλες πόλεις ή αγορές.
 
+## Results & Interpretation
+
+The model predicts nightly Airbnb prices with high accuracy (R² ≈ 0.95).  
+
+- **Median prediction:** ~90–100 € per night  
+- **Low range (q10):** ~75 € (small apartments, less central, few reviews)  
+- **High range (q90):** ~175 € (premium listings, central locations, high review scores)  
+
+### Practical meaning
+- Most listings are expected to cluster around ~100 €/night.  
+- Location, number of bedrooms, and review quality are the main drivers of price.  
+- Hosts with top-rated listings can charge significantly more.  
+
+This demonstrates how machine learning can provide **actionable insights** into real-world markets, helping hosts set competitive prices and helping guests understand market dynamics.
+
 ---
 
 ## Files in this repo
@@ -69,4 +84,5 @@ python make_report.py
 - `example_listings.csv` → Demo training data  
 - `example_predict.csv` → Demo predict data  
 - `prediction_plot.png` → Example plot  
+
 - `airbnb_report.pdf` → Example report  
