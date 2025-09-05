@@ -1,17 +1,40 @@
-# Ignore data files
+# ============================
+# Python cache / temporary
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ============================
+# Jupyter / Notebooks
+# ============================
+.ipynb_checkpoints/
+
+# ============================
+# Data files
+# (κρατάμε μόνο τα demo CSVs)
+# ============================
 *.csv
 !example_listings.csv
 !example_predict.csv
 
-# Ignore model artifacts
+# ============================
+# Models / artifacts
+# ============================
 *.pkl
 *.joblib
 
-# Ignore images / reports
-*.png
+# ============================
+# Reports / plots (παράγονται ξανά)
+# ============================
 *.pdf
+*.png
 
-# Ignore Python cache
-__pycache__/
-*.pyc
-*.pyo
+# ============================
+# System / IDE junk
+# ============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
